@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cube_ptr_pull_down">
+        <item>下拉刷新</item>
+        <item>释放立即刷新</item>
+        <item>刷新中…</item>
+        <item>刷新成功</item>
+        <item>上次刷新时间: </item>
+    </string-array>
+
+    <string-array name="cube_ptr_pull_up">
+        <item>上拉加载</item>
+        <item>释放立即加载</item>
+        <item>加载中…</item>
+        <item>加载成功</item>
+        <item>上次加载时间: </item>
+    </string-array>
+
+</resources>
