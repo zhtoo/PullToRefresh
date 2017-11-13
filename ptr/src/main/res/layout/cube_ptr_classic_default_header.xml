@@ -9,7 +9,7 @@
 
         <LinearLayout
             android:id="@+id/ptr_classic_header_rotate_view_header_text"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center"
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="1dp"
             android:layout_toLeftOf="@+id/ptr_classic_header_rotate_view_header_text">
 
             <ImageView
@@ -47,10 +47,12 @@
 
             <ProgressBar
                 android:id="@+id/ptr_classic_header_rotate_view_progressbar"
-                style="@android:style/Widget.ProgressBar.Small"
+                style="?android:attr/progressBarStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                />
         </FrameLayout>
     </RelativeLayout>
 
